@@ -76,7 +76,7 @@ angular.module('template.html', []).config(function($templateCache) {
 });
 ```
 
-If you have `enableRequireJs` set to ture, that will generate:
+If you have `enableRequireJs` set to true, that will generate:
 ```js
 require(['angular'], function(angular) {
     angular.module('template.html', []).config(function($templateCache) {
@@ -84,6 +84,9 @@ require(['angular'], function(angular) {
     });
 });
 ```
+
+
+todo: An example use of this plugin with require.js:
 
 See the [ng-directive-testing](https://github.com/vojtajina/ng-directive-testing) for a complete example.
 
